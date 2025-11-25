@@ -17,12 +17,6 @@ This tool is designed to provide **privacy-safe datasets** for the development, 
 * **Behavioral Modeling:** Simple descriptive prompts define complex synthetic user behaviors (e.g., specific rating patterns, item preferences).
 * **Secure API Handling:** Uses a `.env` file for secure management of the Gemini API key.
 
-### Technologies
-
-* **LLM:** Google Gemini API (`gemini-2.5-flash`)
-* **Framework:** Python
-* **Libraries:** `google-genai`, `pydantic`, `pandas`, `python-dotenv`
-
 data_generator.py file defines the data structure using Pydantic and contains the function that interacts with the Gemini API to force structured output.
 
 main.py file sets up the API client, defines the custom profiles, and saves the output.
