@@ -9,7 +9,7 @@ from data_generator import generate_synthetic_data
 # 1. Load variables from the .env file into the environment
 load_dotenv() 
 
-# 2. Retrieve the key from the environment (loaded from .env or system environment)
+# 2. Retrieve the key from the environment (loaded from .env)
 API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_KEY_NOT_FOUND")
 
 # Ensure the output directory exists
