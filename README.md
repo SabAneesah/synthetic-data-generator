@@ -28,6 +28,7 @@ data_generator.py file defines the data structure using Pydantic and contains th
 main.py file sets up the API client, defines the custom profiles, and saves the output.
 
 # Output
-<img width="597" height="352" alt="image" src="https://github.com/user-attachments/assets/d030e1dd-2e03-47ba-a929-913bbef0c140" />
+<img width="666" height="352" alt="image" src="https://github.com/user-attachments/assets/a9aec2dc-ad98-48a8-afac-f8b3077e72ed" />
+
 <img width="707" height="629" alt="image" src="https://github.com/user-attachments/assets/8584e17f-f6a6-4a12-b1cc-720936f3e2d2" />
 
